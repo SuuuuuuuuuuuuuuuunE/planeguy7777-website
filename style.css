@@ -9,6 +9,7 @@ body {
     background-color: #ebe9d5;
     margin: 0px;
     font-family: roboto, arial;
+    overflow-x: clip;
 }
 
 div.topbar {
@@ -77,6 +78,8 @@ div.titlesection {
                 div.section div div div {
                     display:block;
                     width:100%;
+                    overflow: clip;
+                    height:auto;
                     border: 5px solid #1b374f;
                     border-radius: 10px;
                     margin: 10px;
@@ -88,11 +91,20 @@ div.titlesection {
     box-shadow: 20px 10px 20px rgba(0, 0, 0, .8);
 }
 
-h1 {
-    text-align:center;
-    margin:0px 0px 50px 0px;
-    font-size:200px;
-    font-weight:100;
+    h1 {
+        text-align:center;
+        margin:0px 0px 50px 0px;
+        font-size:15vw;
+        font-weight:100;
+    }
+
+@media screen and (min-width: 1500px) {
+    h1 {
+        text-align: center;
+        margin: 0px 0px 50px 0px;
+        font-size: 200px;
+        font-weight: 100;
+    }
 }
 
 h2, h3, h4, h5, h6, p {
@@ -101,17 +113,31 @@ h2, h3, h4, h5, h6, p {
 
 h2 {
     font-size:50px;
-    font-weight:100;
+    font-weight:300;
 }
 
-h3 {
-    font-size: 30px;
-    font-weight: 400;
+    h3 {
+        font-size: 2.25vw;
+        font-weight: 400;
+    }
+
+@media screen and (min-width: 1500px) {
+    h3 {
+        font-size: 30px;
+        font-weight: 400;
+    }
 }
 
-p {
+    p {
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+
+@media screen and (min-width: 1500px) {
+    p {
     font-size: 20px;
     font-weight: 300;
+    }
 }
 
 p.bottom {
