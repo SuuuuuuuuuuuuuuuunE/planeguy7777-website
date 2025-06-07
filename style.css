@@ -1,0 +1,128 @@
+/*@font-face {
+    font-family:roboto;
+    src:src(roboto.ttf);
+}
+
+*/
+body {
+    color: #fcfff5;
+    background-color: #ebe9d5;
+    margin: 0px;
+    font-family: roboto, arial;
+}
+
+div.topbar {
+    /* Position */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px;
+    /* Appearance */
+    background-color: #71e590;
+    height:100px;
+    border-bottom: 5px solid #41b05e;
+    border-radius: 0px 0px 15px 15px;
+}
+
+    div.topbar p, div.topbar a:link {
+        /* Centering */
+        margin: 0px 20px 0px 20px;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        /* Text */
+        color:#fffcec;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    div.topbar a {
+        text-decoration: none;
+    }
+
+    div.topbar a:hover {
+        color: #41b05e;
+    }
+
+div.section {
+    display:flex;
+    justify-content:center;
+    margin:50px 0px 50px 0px;
+}
+
+div.titlesection {
+    display: flex;
+    justify-content: center;
+    margin: -15px 0px 30px 0px;
+    padding: 10px;
+    background-image: linear-gradient(180deg, #080806, #080806, #080806, #080806, #ebe9d5);
+    overflow: clip;
+}
+
+    div.section div {
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+        max-width: 95%;
+    }
+
+        div.section div div {
+            display: flex;
+            justify-content: unset;
+            width: 50%;
+            margin: 0px 20px 0px 20px;
+        }
+
+                div.section div div div {
+                    display:block;
+                    width:100%;
+                    border: 5px solid #1b374f;
+                    border-radius: 10px;
+                    margin: 10px;
+                    padding: 10px;
+                    color:#0c120c;
+                }
+
+.dropshadow {
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, .8);
+}
+
+h1 {
+    text-align:center;
+    margin:0px 0px 50px 0px;
+    font-size:200px;
+    font-weight:100;
+}
+
+h2, h3, h4, h5, h6, p {
+    margin: 20px;
+}
+
+h2 {
+    font-size:50px;
+    font-weight:100;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p.bottom {
+    color:black;
+    font-size:10px;
+    font-weight:600;
+    text-align:center;
+    margin:100px 0px 30px 0px;
+    text-decoration:underline;
+}
+
+iframe {
+    border:none;
+}
