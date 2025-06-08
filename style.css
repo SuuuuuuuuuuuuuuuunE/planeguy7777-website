@@ -100,6 +100,7 @@ div.section {
                 }
 
 div.page {
+    overflow-x:clip;
     /* Centering */
     margin: 50px 5% 50px 5%;
     border: 5px solid #1b374f;
@@ -142,17 +143,30 @@ h2, h3, h4, h5, h6, p {
 h2 {
     font-size:50px;
     font-weight:300;
+    margin-top:20px;
 }
 
-    h3 {
-        font-size: 2.25vw;
-        font-weight: 400;
-    }
+h3 {
+    font-size: 2.25vw;
+    font-weight: 400;
+    margin-top: 40px;
+}
 
 @media screen and (min-width: 1500px) {
     h3 {
         font-size: 30px;
-        font-weight: 400;
+    }
+}
+
+h4 {
+    font-size: 1.875vw;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1500px) {
+    h4 {
+        font-size: 25px;
     }
 }
 
@@ -177,10 +191,6 @@ p.bottom {
     text-decoration:underline;
 }
 
-li {
-    margin:10px 0px;
-}
-
 hr {
     border-width:0px;
     height:1px;
@@ -200,6 +210,10 @@ th, td {
 
 th {
     font-size:20px;
+}
+
+ul, ol {
+    font-weight:300;
 }
 
 ol.toc {
@@ -225,6 +239,10 @@ ol.toc {
             background-color: #237dc1a6;
             border-radius: 5px;
         }
+
+li {
+    margin: 10px 0px;
+}
 
 figcaption {
     font-style:italic;
