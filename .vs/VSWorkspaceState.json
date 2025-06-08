@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\resources",
+    "\\wiki",
+    "\\wiki\\resources"
   ],
-  "SelectedNode": "\\roboto.ttf",
+  "SelectedNode": "\\resources\\logo.png",
   "PreviewInSolutionExplorer": false
 }
