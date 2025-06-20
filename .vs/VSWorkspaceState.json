@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\resources",
     "\\wiki",
-    "\\wiki\\resources"
+    "\\wiki\\misc",
+    "\\wiki\\misc\\resources",
+    "\\wiki\\staff profiles",
+    "\\wiki\\staff ranks"
   ],
+  "SelectedNode": "\\wiki\\staff",
   "PreviewInSolutionExplorer": false
 }
